@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <style>
+        body{
+            background-color: grey;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .todo-container{
+            background-color: aqua;
+            width: 100%;
+            padding: 20px;
+        }
+        ul{
+            list-style-type: none;
+        }
+        input[type ="checkbox"]{
+            margin-right: 50px;
+            justify-content: left;
+        }
+    </style>
+</head>
+<body>
+    <div class = "todo-container">
+        <h3>My to-do list</h3>
+        <ul>
+            <li><input type="checkbox">Go to the gym</li>
+            <li><input type="checkbox">Buy groceries</li>
+            <li><input type="checkbox">Read a Book</li>
+            <li><input type="checkbox">Call a friend</li>
+            <li><input type="checkbox">Write a blog post</li>
+        </ul>
+    </div>
+</body>
+</html>
